@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04432AE619F91FC2009EB8F3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 04432AE519F91FC2009EB8F3 /* Model.m */; };
+		04B997B019F804C200A425F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B997AF19F804C200A425F6 /* main.m */; };
+		04B997B319F804C200A425F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B997B219F804C200A425F6 /* AppDelegate.m */; };
+		04B997B619F804C200A425F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B997B519F804C200A425F6 /* ViewController.m */; };
+		04B997B919F804C200A425F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B997B719F804C200A425F6 /* Main.storyboard */; };
+		04B997BB19F804C200A425F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B997BA19F804C200A425F6 /* Images.xcassets */; };
+		04B997C719F804C200A425F6 /* _3_5_post_get_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B997C619F804C200A425F6 /* _3_5_post_get_____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B997C119F804C200A425F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B997A219F804C200A425F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B997A919F804C200A425F6;
+			remoteInfo = "33.5-post&get 实现登录";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04432AE419F91FC2009EB8F3 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		04432AE519F91FC2009EB8F3 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		04B997AA19F804C200A425F6 /* 33.5-post&get 实现登录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "33.5-post&get 实现登录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B997AE19F804C200A425F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B997AF19F804C200A425F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B997B119F804C200A425F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B997B219F804C200A425F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B997B419F804C200A425F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B997B519F804C200A425F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B997B819F804C200A425F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B997BA19F804C200A425F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04B997C019F804C200A425F6 /* 33.5-post&get 实现登录Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "33.5-post&get 实现登录Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B997C519F804C200A425F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B997C619F804C200A425F6 /* _3_5_post_get_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3_5_post_get_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B997A719F804C200A425F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B997BD19F804C200A425F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04432AE319F91FA2009EB8F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04432AE419F91FC2009EB8F3 /* Model.h */,
+				04432AE519F91FC2009EB8F3 /* Model.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04B997A119F804C200A425F6 = {
+			isa = PBXGroup;
+			children = (
+				04B997AC19F804C200A425F6 /* 33.5-post&get 实现登录 */,
+				04B997C319F804C200A425F6 /* 33.5-post&get 实现登录Tests */,
+				04B997AB19F804C200A425F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B997AB19F804C200A425F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B997AA19F804C200A425F6 /* 33.5-post&get 实现登录.app */,
+				04B997C019F804C200A425F6 /* 33.5-post&get 实现登录Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B997AC19F804C200A425F6 /* 33.5-post&get 实现登录 */ = {
+			isa = PBXGroup;
+			children = (
+				04432AE319F91FA2009EB8F3 /* Model */,
+				04B997B119F804C200A425F6 /* AppDelegate.h */,
+				04B997B219F804C200A425F6 /* AppDelegate.m */,
+				04B997B419F804C200A425F6 /* ViewController.h */,
+				04B997B519F804C200A425F6 /* ViewController.m */,
+				04B997B719F804C200A425F6 /* Main.storyboard */,
+				04B997BA19F804C200A425F6 /* Images.xcassets */,
+				04B997AD19F804C200A425F6 /* Supporting Files */,
+			);
+			path = "33.5-post&get 实现登录";
+			sourceTree = "<group>";
+		};
+		04B997AD19F804C200A425F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B997AE19F804C200A425F6 /* Info.plist */,
+				04B997AF19F804C200A425F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B997C319F804C200A425F6 /* 33.5-post&get 实现登录Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04B997C619F804C200A425F6 /* _3_5_post_get_____Tests.m */,
+				04B997C419F804C200A425F6 /* Supporting Files */,
+			);
+			path = "33.5-post&get 实现登录Tests";
+			sourceTree = "<group>";
+		};
+		04B997C419F804C200A425F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B997C519F804C200A425F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B997A919F804C200A425F6 /* 33.5-post&get 实现登录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B997CA19F804C200A425F6 /* Build configuration list for PBXNativeTarget "33.5-post&get 实现登录" */;
+			buildPhases = (
+				04B997A619F804C200A425F6 /* Sources */,
+				04B997A719F804C200A425F6 /* Frameworks */,
+				04B997A819F804C200A425F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "33.5-post&get 实现登录";
+			productName = "33.5-post&get 实现登录";
+			productReference = 04B997AA19F804C200A425F6 /* 33.5-post&get 实现登录.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B997BF19F804C200A425F6 /* 33.5-post&get 实现登录Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B997CD19F804C200A425F6 /* Build configuration list for PBXNativeTarget "33.5-post&get 实现登录Tests" */;
+			buildPhases = (
+				04B997BC19F804C200A425F6 /* Sources */,
+				04B997BD19F804C200A425F6 /* Frameworks */,
+				04B997BE19F804C200A425F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B997C219F804C200A425F6 /* PBXTargetDependency */,
+			);
+			name = "33.5-post&get 实现登录Tests";
+			productName = "33.5-post&get 实现登录Tests";
+			productReference = 04B997C019F804C200A425F6 /* 33.5-post&get 实现登录Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B997A219F804C200A425F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = MN;
+				TargetAttributes = {
+					04B997A919F804C200A425F6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					04B997BF19F804C200A425F6 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 04B997A919F804C200A425F6;
+					};
+				};
+			};
+			buildConfigurationList = 04B997A519F804C200A425F6 /* Build configuration list for PBXProject "33.5-post&get 实现登录" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B997A119F804C200A425F6;
+			productRefGroup = 04B997AB19F804C200A425F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B997A919F804C200A425F6 /* 33.5-post&get 实现登录 */,
+				04B997BF19F804C200A425F6 /* 33.5-post&get 实现登录Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B997A819F804C200A425F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B997B919F804C200A425F6 /* Main.storyboard in Resources */,
+				04B997BB19F804C200A425F6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B997BE19F804C200A425F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B997A619F804C200A425F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B997B619F804C200A425F6 /* ViewController.m in Sources */,
+				04B997B319F804C200A425F6 /* AppDelegate.m in Sources */,
+				04B997B019F804C200A425F6 /* main.m in Sources */,
+				04432AE619F91FC2009EB8F3 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B997BC19F804C200A425F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B997C719F804C200A425F6 /* _3_5_post_get_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B997C219F804C200A425F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B997A919F804C200A425F6 /* 33.5-post&get 实现登录 */;
+			targetProxy = 04B997C119F804C200A425F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B997B719F804C200A425F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B997B819F804C200A425F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B997C819F804C200A425F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04B997C919F804C200A425F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B997CB19F804C200A425F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "33.5-post&get 实现登录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B997CC19F804C200A425F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "33.5-post&get 实现登录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04B997CE19F804C200A425F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "33.5-post&get 实现登录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/33.5-post&get 实现登录.app/33.5-post&get 实现登录";
+			};
+			name = Debug;
+		};
+		04B997CF19F804C200A425F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "33.5-post&get 实现登录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/33.5-post&get 实现登录.app/33.5-post&get 实现登录";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B997A519F804C200A425F6 /* Build configuration list for PBXProject "33.5-post&get 实现登录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B997C819F804C200A425F6 /* Debug */,
+				04B997C919F804C200A425F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B997CA19F804C200A425F6 /* Build configuration list for PBXNativeTarget "33.5-post&get 实现登录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B997CB19F804C200A425F6 /* Debug */,
+				04B997CC19F804C200A425F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B997CD19F804C200A425F6 /* Build configuration list for PBXNativeTarget "33.5-post&get 实现登录Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B997CE19F804C200A425F6 /* Debug */,
+				04B997CF19F804C200A425F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B997A219F804C200A425F6 /* Project object */;
+}
